@@ -1,70 +1,67 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Auto Suggestion Input - Readme
 
-## Available Scripts
+This project is an auto-suggestion input application built with React and Styled Components. It allows users to search for users based on their first name or last name, and as they type, it provides auto-suggestions for matching names. Users can click on a suggestion to populate the input field with the selected user's full name and display their details.
 
-In the project directory, you can run:
+Getting Started
+To get the project up and running on your local machine, follow the steps below:
 
-### `npm start`
+## Clone the repository:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+   `git clone https://github.com/your-username/auto_suggestion_input.git`
+   
+## Navigate to the project directory:
+   
+   `cd auto_suggestion_input`
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Install Dependencies:
+   
+   Ensure you have Node.js and npm (Node Package Manager) installed on your machine. Then, install the project dependencies by running the following command:
 
-### `npm test`
+   `npm install`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Starting the Project:
 
-### `npm run build`
+After installing the project dependencies, you can start the development server and run the auto-suggestion input application.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Start the development server:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+`npm start`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+This will start the development server and automatically open the application in your default web browser. 
 
-### `npm run eject`
+If it doesn't open automatically, you can access it by navigating to http://localhost:3000 in your web browser.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+    
+## Using the Auto-Suggestion Input:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. In the search input field, start typing the first name or last name of a user.
+    
+2. As you type, the application will show auto-suggestions based on the input.
+    
+3. Click on any suggestion to populate the input field with the selected user's full name.
+    
+4. The user details will be displayed below the input field.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Responsive Design:
+The application is designed to be responsive and will adjust its layout based on the screen size. You can test the responsiveness by resizing your browser window or using the browser's developer tools.
 
-## Learn More
+## Additional Information
+1. The data for the user search is fetched from the dummyjson.com API, which generates dummy data for testing purposes.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+2. The Styled Components library is used for styling the application, providing a clean and efficient way to manage CSS.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+3. The application uses React's useState and useEffect hooks to handle state and side-effects respectively.
 
-### Code Splitting
+## Credits
+This project was created by Kamal as part of a demonstration for an auto-suggestion input using React and Styled Components.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
